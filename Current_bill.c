@@ -16,9 +16,9 @@ int main()
     else if(a>=400&&a<600)
     {
         b=a*1.80;
-        c=b*0.15;
+        c=b*1.50;
         d=b+c;
-        printf("%0.2f",d);
+        printf("%d",d);
     }
     else if(a>600)
     {
