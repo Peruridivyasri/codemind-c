@@ -11,6 +11,6 @@ int main()
             printf("%d",max);
             break;
         }
-        max++;
+        ++max;
     }
 }
